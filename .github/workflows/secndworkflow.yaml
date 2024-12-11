@@ -9,4 +9,4 @@ jobs:
             - name: Multiple commands
               run: |
                   echo "This is a shell script"
-                  echo "Hello, World!"
+                  echo "Hello, Worlds!"
