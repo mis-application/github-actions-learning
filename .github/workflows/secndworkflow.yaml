@@ -1,0 +1,12 @@
+name: second-workflow #workflow name
+on:
+    push: # trigger event
+jobs:
+    shell-commands: #name given for your job
+        runs-on: ubuntu-latest # job environment
+        steps: #task on the job
+            - run: echo "Hello World"
+            - name: Multiple commands
+              run: |
+                  echo "This is a shell script"
+                  echo "Hello, World!"
