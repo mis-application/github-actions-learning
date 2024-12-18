@@ -23,7 +23,7 @@ jobs:
             - name: build
               run: |
                   cd 04-using-actions/react-app
-                  npm build
+                  npm run build
 
 
                   
