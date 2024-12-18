@@ -19,7 +19,7 @@ jobs:
             - name: Run Unit Tests
               run: |
                  cd 04-using-actions/react-app
-                 import '@testing-library/jest-dom'
+                 npm install --save-dev @testing-library/jest-dom
                  npm run test     
 
                   
