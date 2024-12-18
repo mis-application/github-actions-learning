@@ -5,14 +5,14 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: echo-hello
-              run: ech "Helo, World!"
+              run: echo "Helo, World!"
 
     echo-goodbye:
         runs-on: ubuntu-latest
         steps:
             - name: Failed step
               run: |
-                  echo "i will fail"
+                  ech "i will fail"
                   exit 0
             - name: Goodbye!
               run: echo "Goodbye!"        
