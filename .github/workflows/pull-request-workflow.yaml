@@ -1,0 +1,11 @@
+name: repo-events
+on: [pull_request]
+jobs: 
+    repo-lab:
+       runs-on: ubuntu-latest
+       steps:
+          - name: checkout-repo
+            uses: actions/checkout@v4
+          - run: |
+                echo $GITHUB_SHA
+                echo $GITHUB_REF
