@@ -1,5 +1,7 @@
 name: repo-events
-on: [pull_request]
+on: 
+   pull_request:
+            types: [opened, closed]
 jobs:
   repo-lab:
     runs-on: ubuntu-latest
