@@ -1,7 +1,7 @@
 name: workflow-after-04
 on: 
    workflow_run:
-            workflows: [repo-events]
+            workflows: [04-workflow]
             types: completed
 jobs:
   hello-world:
