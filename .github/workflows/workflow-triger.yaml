@@ -7,4 +7,4 @@ jobs:
   hello-world:
     runs-on: ubuntu-latest
     steps:
-      - run : echo "i am running because the repo-event is completed"
+      - run : echo "i am running because the repo-event is completed !!!"
